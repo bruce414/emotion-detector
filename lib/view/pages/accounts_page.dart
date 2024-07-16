@@ -25,7 +25,7 @@ class _AccountPageState extends State<AccountPage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Padding(
+                    const Padding(
                       padding: EdgeInsets.only(top: 60, left: 30),
                       child: CircleAvatar(
                         radius: 40,
@@ -43,7 +43,7 @@ class _AccountPageState extends State<AccountPage> {
                         children: [
                           GestureDetector(
                             onTap: (){},
-                            child: Padding(
+                            child: const Padding(
                               padding: EdgeInsets.only(right: 10),
                               child: Icon(
                                 size: 45,
@@ -66,7 +66,7 @@ class _AccountPageState extends State<AccountPage> {
                                   }
                               );
                             },
-                            child: Icon(
+                            child: const Icon(
                               size: 45,
                               CupertinoIcons.settings,
                             ),
@@ -76,7 +76,7 @@ class _AccountPageState extends State<AccountPage> {
                     )
                   ],
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.only(top: 80, left: 30, right: 20),
                   child: SizedBox(
                     height: 30,
@@ -105,13 +105,13 @@ class _AccountPageState extends State<AccountPage> {
                             child: GestureDetector(
                                 onTap: (){},
                                 child: Container(
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                     borderRadius: BorderRadius.all(Radius.circular(30)),
                                     color: Colors.red,
                                   ),
                                   height: 100,
                                   width: 150,
-                                  child: Center(
+                                  child: const Center(
                                     child: Text(
                                       "placeholder",
                                       style: TextStyle(
@@ -125,17 +125,17 @@ class _AccountPageState extends State<AccountPage> {
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsets.only(left: 20),
+                            padding: const EdgeInsets.only(left: 20),
                             child: GestureDetector(
                               onTap: (){},
                               child: Container(
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   borderRadius: BorderRadius.all(Radius.circular(30)),
                                   color: Colors.pinkAccent,
                                 ),
                                 height: 100,
                                 width: 150,
-                                child: Center(
+                                child: const Center(
                                   child: Text(
                                     "placeholder",
                                     style: TextStyle(
